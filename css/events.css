@@ -1,0 +1,65 @@
+.events {
+    /* background: white; */
+    background-image: linear-gradient(90deg, rgb(81, 187, 142), rgb(116, 220, 120));
+    display: flex;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem;
+    min-height: auto;
+    max-width: 1400px;
+    border-radius: 1rem;
+}
+
+.events div {
+    border-radius: 20px;
+}
+
+.events-img {
+    flex-shrink: 1;
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.events-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.events .events-text {
+    flex: 1;
+    max-width: 900px;
+    flex-shrink: 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Caveat', cursive;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 600;
+    /* border: 1px solid; */
+    padding: 1rem;
+}
+
+.events .events-text h2 {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.events .about-text p {
+    margin: 0.5rem 0.1rem;
+    text-align: justify;
+}
+@media screen and (max-width: 900px) {
+    /* <-- responsiveness for about us starts--> */
+    .events{
+        flex-direction: column-reverse;
+    }
+    /* <-- responsiveness for about us ends--> */
+}

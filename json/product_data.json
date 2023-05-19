@@ -1,0 +1,305 @@
+{
+    "data": [
+        {
+            "id":1,
+            "product-id": 6,
+            "category": "Chocolate-Juices",
+            "name": "choclate date smoothie",
+            "price": 14.50,
+            "img": "../images/products_pc/chocolate juices/ChoclateDateSmoothie.jpg"
+        },
+        {
+            "id":2,
+            "product-id": 6,
+            "category": "Chocolate-Juices",
+            "name": "chocolate banana juice",
+            "price": 12.99,
+            "img": "../images/products_pc/chocolate juices/chocolate banana juice.jpg"
+        },
+        {
+            "id":3,
+            "product-id": 6,
+            "category": "Chocolate-Juices",
+            "name": "chocolate peanut better juice",
+            "price": 12.95,
+            "img": "../images/products_pc/chocolate juices/chocolate peanut better juice.jpg"
+        },
+        {
+            "id":4,
+            "product-id": 6,
+            "category": "Chocolate-Juices",
+            "name": "chocolate-milk-juice",
+            "price": 14.25,
+            "img": "../images/products_pc/chocolate juices/chocolate-milk-juice.jpg"
+        },
+        {
+            "id":5,
+            "product-id": 6,
+            "category": "Chocolate-Juices",
+            "name": "chocolate-syrem",
+            "price": 11.99,
+            "img": "../images/products_pc/chocolate juices/chocolate-syrem.jfif"
+        },
+        {
+            "id":6,
+            "product-id": 1,
+            "category": "Fruit-Juices",
+            "name": "orange Juice",
+            "price": 15.25,
+            "img": "../images/products_pc/fruit juices/fruit orange juice.jpg"
+        },
+        {
+            "id":7,
+            "product-id": 1,
+            "category": "Fruit-Juices",
+            "name": "Pineapple Juice",
+            "price": 20,
+            "img": "../images/products_pc/fruit juices/fruit-Pineapple Juice.jpg"
+        },
+        {
+            "id":8,
+            "product-id": 1,
+            "category": "Fruit-Juices",
+            "name": "Cranberry Juice",
+            "price": 15.92,
+            "img": "../images/products_pc/fruit juices/fruit-Cranberry-Juice.jpg"
+        },
+        {
+            "id":9,
+            "product-id": 1,
+            "category": "Fruit-Juices",
+            "name": "Apple Juice",
+            "price": 10,
+            "img": "../images/products_pc/fruit juices/fruit-apple juice.jpg"
+        },
+        {
+            "id":10,
+            "product-id": 1,
+            "category": "Fruit-Juices",
+            "name": "Lemon Juice",
+            "price": 15.95,
+            "img": "../images/products_pc/fruit juices/fruit-lemonade-juice.jpg"
+        },
+        {
+            "id":11,
+            "product-id": 2,
+            "category": "Vegetable-Juices",
+            "name": "parsley",
+            "price": 12.50,
+            "img": "../images/products_pc/Vegetable juices/jiuce-parsley.jpg"
+        },
+        {
+            "id":12,
+            "product-id": 2,
+            "category": "Vegetable-Juices",
+            "name": "dandelion greensy",
+            "price": 12.95,
+            "img": "../images/products_pc/Vegetable juices/juice-dandelion greens.jpg"
+        },
+        {
+            "id":13,
+            "product-id": 2,
+            "category": "Vegetable-Juices",
+            "name": "kale",
+            "price": 15.50,
+            "img": "../images/products_pc/Vegetable juices/juice-kale-juice.jpg"
+        },
+        {
+            "id":14,
+            "product-id": 2,
+            "category": "Vegetable-Juices",
+            "name": "celery",
+            "price": 10,
+            "img": "../images/products_pc/Vegetable juices/juice-Celery.jpg"
+        },
+        {
+            "id":15,
+            "product-id": 2,
+            "category": "Vegetable-Juices",
+            "name": "fennel",
+            "price": 10,
+            "img": "../images/products_pc/Vegetable juices/juice fennel.jpg"
+        },
+        {
+            "id":16,
+            "product-id": 2,
+            "category": "Vegetable-Juices",
+            "name": "cucumbers",
+            "price": 9.25,
+            "img": "../images/products_pc/Vegetable juices/Juice-Cucumber-Juice-5.jpg"
+        },
+        {
+            "id":17,
+            "product-id": 6,
+            "category": "Protein-Shakes",
+            "name": "protein blueberry shake",
+            "price": 20,
+            "img": "../images/products_pc/protein shake/protein blueberry shake.jfif"
+        },
+        {
+            "id":18,
+            "product-id": 6,
+            "category": "Protein-Shakes",
+            "name": "protein matcha shake",
+            "price": 25,
+            "img": "../images/products_pc/protein shake/protein matcha shake.jfif"
+        },
+        {
+            "id":19,
+            "product-id": 6,
+            "category": "Protein-Shakes",
+            "name": "protein orange shake",
+            "price": 22.25,
+            "img": "../images/products_pc/protein shake/protein orange shake.jfif"
+        },
+        {
+            "id":20,
+            "product-id": 6,
+            "category": "Protein-Shakes",
+            "name": "protein strawberry shake",
+            "price": 25,
+            "img": "../images/products_pc/protein shake/protein strawbarry shake.jpg"
+        },
+        {
+            "id":21,
+            "category": "Protein-Shakes",
+            "name": "protein breakfast shake",
+            "price": 25,
+            "img": "../images/products_pc/protein shake/protein-Breakfast-Shake-8.jpeg"
+        },
+        {
+            "id":22,
+            "category": "Protein-Shakes",
+            "name": "chocolate protein shake",
+            "price": 22.50,
+            "img": "../images/products_pc/protein shake/chocolate protein shake.jpg"
+        },
+        {
+            "id":23,
+            "category": "Mock-Tail",
+            "name": "mocktail Blue lagoon",
+            "price": 15,
+            "img": "../images/products_pc/mock tail/mocktail-Blue-lagoon.jpg"
+        },
+        {
+            "id":24,
+            "category": "Mock-Tail",
+            "name": "mocktail dragonfruit mocktail",
+            "price": 18.50,
+            "img": "../images/products_pc/mock tail/mocktail-dragonfruit-mocktail.jpg"
+        },
+        {
+            "id":25,
+            "category": "Mock-Tail",
+            "name": "mocktail green cucumbe",
+            "price": 16.50,
+            "img": "../images/products_pc/mock tail/mocktail-Green-Cucumbe.jpg"
+        },
+        {
+            "id":26,
+            "category": "Mock-Tail",
+            "name": "mocktail mojito",
+            "price": 18.10,
+            "img": "../images/products_pc/mock tail/mocktail-Mojito.jpg"
+        },
+        {
+            "id":27,
+            "category": "Mock-Tail",
+            "name": "mocktail Orange",
+            "price": 15,
+            "img": "../images/products_pc/mock tail/mocktail-Orange.jpg"
+        },
+        {
+            "id":28,
+            "category": "Smoothies",
+            "name": "banana blueberry bmoothie",
+            "price": 18,
+            "img": "../images/products_pc/smoothies/Banana Blueberry Smoothie.jpg"
+        },
+        {
+            "id":29,
+            "category": "Smoothies",
+            "name": "strawberry coconut smoothie",
+            "price": 20,
+            "img": "../images/products_pc/smoothies/Strawberry Coconut Smoothie.jpg"
+        },
+        {
+            "id":30,
+            "category": "Smoothies",
+            "name": "blueberry pomegranate smoothie",
+            "price": 17,
+            "img": "../images/products_pc/smoothies/blueberry pomegranate smoothie.jpg"
+        },
+        {
+            "id":31,
+            "category": "Smoothies",
+            "name": "mango smoothie",
+            "price": 20,
+            "img": "../images/products_pc/smoothies/Mango Smoothie.jpg"
+        },
+        {
+            "id":32,
+            "category": "Smoothies",
+            "name": "Pom-Berry-Banana Smoothie",
+            "price": 18.25,
+            "img": "../images/products_pc/smoothies/Pom-Berry-Banana Smoothie.jpg"
+        }
+    ],
+    "maps":[
+        {
+            "main":"North Nazimabad Town",
+            "side":"D - 4 Block H , Karachi, Karachi City, Sindh 74700, Pakistan"
+        },
+        {
+            "main":"Main Korangi Rd, D.H.A Phase II Extension Phase 2",
+            "side":"Commercial Area Defence Housing Authority, Karachi, Karachi City, Sindh 75500, Pakistan"
+        },
+        {
+            "main":"North Nazimabad Town",
+            "side":"D - 4 Block H , Karachi, Karachi City, Sindh 74700, Pakistan"
+        },
+        {
+            
+            "main":"Main Korangi Rd, Phase 2",
+            "side":"c 81  Commercial Area Defence Housing Authority, Karachi, Karachi City, Sindh 75500, Pakistan"
+        },
+        {
+            "main":"Garden East Saddar Town, Karachi, Sindh 74400",
+            "side":"APWA Complex, 1st Floor, Agha Khan 3 Rd, Pakistan"
+        },
+        {
+            
+            "main":"Karachi City, Sindh 75500",
+            "side":"Glass Tower, Block 8 Frere Town, Pakistan"
+        },
+        {
+            
+            "main":" Block-6 Block 6 PECHS",
+            "side":"V379+GRM, Karachi City, Sindh, Pakistan"
+        },
+        {
+            "main":" Block 1 Nazimabad, Karachi",
+            "side":"Habib Garden Plot 1E, 3/1, Nazimabad No 1،, near Nazimabad Underpass"
+        },
+        {
+            "main":"Block 19 Gulistan-e-Johar",
+            "side":"M-1 Mezzinine Floor, Yousuf Hieghts B-24، Block 19 Johar Mor Rd Service Ln"
+        },
+        {
+            "main":"North Nazimabad Town",
+            "side":"D - 4 Block H , Karachi, Karachi City, Sindh 74700, Pakistan"
+        },
+        {
+            "main":"orangi Town",
+            "side":"D - 4 Block H , Karachi, Karachi City, Sindh 74700, Pakistan"
+        },
+        {
+            "main":"North Nazimabad Town",
+            "side":"D - 4 Block H , Karachi, Karachi City, Sindh 74700, Pakistan"
+        },
+        {
+            "main":"North Nazimabad Town",
+            "side":"D - 4 Block H , Karachi, Karachi City, Sindh 74700, Pakistan"
+        }
+    ]
+}

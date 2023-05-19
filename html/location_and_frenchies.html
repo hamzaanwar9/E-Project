@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shrek juice</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/location.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script async src="https://maps.googleapis.com/maps/api/js">
+    </script>
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="wrapper">
+            <div class="logo">
+                <a href="home.html">
+                    <!-- <img src="../images/logo.jpg" alt="shrek juice logo"> -->
+                    <h1>shrek juices</h1>
+                </a>
+            </div>
+            <input type="radio" name="slide" id="menu-btn">
+            <input type="radio" name="slide" id="cancel-btn">
+            <ul class="nav-links">
+                <div class="test">
+                    <label for="cancel-btn" class="btn cancel-btn"><i class="fas fa-times"></i></label>
+                </div>
+                <li>
+                    <h2 class="desktop-item">our services</h2>
+                    <input type="checkbox" id="show-mega-sublinks">
+                    <label for="show-mega-sublinks" class="mobile-item">our services</label>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <h3><a href="product_page.html">Manu</a></h3>
+                                <ul class="mega-links">
+                                    <li class="hover-effect" onclick="NavlinksProduct('Fruit-Juices')">Frute Juices</li>
+                                    <li class="hover-effect" onclick="NavlinksProduct('Vegitable-Juices')">Vegitable
+                                        Juices</li>
+                                    <li class="hover-effect" onclick="NavlinksProduct('Smoothies')">Smoothies</li>
+                                    <li class="hover-effect" onclick="NavlinksProduct('Protine-Shakes')">Protine Shakes
+                                    </li>
+                                    <li class="hover-effect" onclick="NavlinksProduct('Chocolate-Juices')">Chocolate
+                                        Juices</li>
+                                    <li class="hover-effect" onclick="NavlinksProduct('Mock-Tails')">Mock Tails</li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <ul class="event-link">
+                                    <li>
+                                        <a href="catering.html">
+                                            <div class="sub-events-links">
+                                                <img src="../images/logo.jpg" alt="events-image">
+                                                <div class="events-discription">
+                                                    <h3>catering</h3>
+                                                    <p>here are some of the great time and events we have held </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="events.html">
+                                            <div class="sub-events-links">
+                                                <img src="../images/logo.jpg" alt="catering-image">
+                                                <div class="events-discription">
+                                                    <h3>events</h3>
+                                                    <p>if you ever neend catering crew fear not we got your back</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="location_and_frenchies.html">location</a></li>
+                <li><a href="about_us.html">about us</a></li>
+                <li><a href="contect_us.html">contact us</a></li>
+                <li><a href="feedback.html">feedback</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </nav>
+    </header>
+
+    <section>
+        <header class="page-header">
+            <div class="flow">
+                <h1 class="page-title"><a href="../html/location_and_frenchies.html">main branche</a></h1>
+            </div>
+        </header>
+        <div class="location-info">
+            <div class="location-text">
+                <h2>our main branche location</h2>
+                <p>We have been providing and supplying our customers sice 1995.</p>
+                <p>And we have never miss a chance to satisfy them and full fill there wishis and needs here are some of
+                    our great treasure that you can have it all you have to do find us and get all of our treasure</p>
+                    <p class="fa-sharp fa-solid fa-location-dot"> Progressive Center, suite # 202-203, 30-A Shahrah-e-Faisal Rd, Karachi, 75400, Pakistan</p>
+            </div>
+            <div id="location-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d732.229449186702!2d67.07349016986605!3d24.86316363317637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea3db108f41%3A0x42acc4507358b160!2sAptech%20Learning%2C%20Shahrah%20e%20Faisal%20Center!5e0!3m2!1sen!2s!4v1683871956500!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="frenchies-info">
+        <header class="page-header">
+            <div class="flow">
+                <h1 class="page-title">our location</h1>
+            </div>
+        </header>
+        <div id="frenchies">
+        </div>
+        <i class="">
+
+    </section>
+    <footer>
+        <div class="container">
+            <div class="foot-row">
+                <div class="foot-col">
+                    <h4><a href="about_us.html">about us</a></h4>
+                    <ul>
+                        <li>We have been providing and supplying our customers sice 1995.</li>
+                        <li><a href="about_us.html">more about us </a></li>
+                        <li><a href="catering.html">catering</a></li>
+                        <li><a href="">events</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4><a href="contect_us.html">contect us</a></h4>
+                    <ul>
+                        <li>shark juices</li>
+                        <li>email : sharksjuices@gmail.com</li>
+                        <li>mob - 0322-3556555</li>
+                        <li>tel - 03824250</li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4><a href="../html/product_page.html">online shop</a></h4>
+                    <ul>
+                        <li><a href="../html/product_page.html">Frute-Juices</a></li>
+                        <li><a href="../html/product_page.html">Vegitable-Juices</a></li>
+                        <li><a href="../html/product_page.html">Smoothies</a></li>
+                        <li><a href="../html/product_page.html">Chocolate-Juices</a></li>
+                        <li><a href="../html/product_page.html">Protine-Shakes</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        fetch('../json/product_data.json')
+        .then(Response=>Response.json())
+        .then(items=>{
+            const frenchies = document.querySelector("#frenchies");
+            for (let i of items.maps){
+
+                // creating element andadding classes and  appending it to veriablefranchies 
+                let location = document.createElement("div");
+                location.classList.add("locations");
+                let main = document.createElement("h3");
+                main.innerText = i.main;
+                location.appendChild(main);
+                let side = document.createElement("p");
+                side.innerText = i.side;
+                location.appendChild(side);
+                frenchies.appendChild(location);
+            }
+
+        })
+
+
+        // const map = document.getElementById("location-map");
+        // let latlang = new googel.maps.LatLng(24.85166956146651, 67.016622946044);
+        // var y = new googel.maps.Map(x, {
+        //     center: latlang,
+        //     zoom: 19,
+        //     mapTypeId: "roadmap"
+        // });
+        // map = new googel.maps.Marker({
+        //     map: y,
+        //     position: latlang,
+        //     title: "shrek juices"
+        // });
+        // console.log(map)
+
+    </script>
+    <script src="../javascript/main.js"></script>
+</body>
+
+</html>
